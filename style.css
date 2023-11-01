@@ -273,7 +273,6 @@ button {
 
 .about__us {
   background: #d1edf482;
-  /* height: 750px; */
 }
 
 .about__us-title {
@@ -291,7 +290,6 @@ button {
   font-weight: 700;
   line-height: 130%;
   letter-spacing: -0.45px;
-  width: 435px;
 }
 .about__us-text {
   color: #555;
@@ -299,7 +297,6 @@ button {
   font-size: 18px;
   font-weight: 400;
   line-height: 165%;
-  /* width: 529px; */
   margin: 15px 0;
 }
 .about-us-group-text {
@@ -370,12 +367,9 @@ button {
     align-items: center;
   }
   .about-us-group {
-    width: 121px;
+    /* width: 121px; */
     border: 1px solid #1e2c30;
     background: #fff;
-  }
-  .about__us-text {
-    width: 440px;
   }
 }
 .our-services {
@@ -571,6 +565,77 @@ button {
   }
   .customers-header {
     display: flex;
+    text-align: center;
+  }
+}
+.benefits__group-text {
+  color: #555;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 165%;
+  letter-spacing: 0.36px;
+  width: 330px;
+}
+.benefits__group-title {
+  color: #141414;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 20px 0 11px;
+}
+.benefits-content {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.benefits-content2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.benefits__header-text {
+  color: #5c8692;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 154.5%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 50px 0 10px;
+}
+.benefits__header-title {
+  color: #141414;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.45px;
+  margin: 0 0 20px;
+}
+.benefits__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 1110px) {
+  .benefits-content {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .benefits-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 579px) {
+  .benefits__header {
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
 }
