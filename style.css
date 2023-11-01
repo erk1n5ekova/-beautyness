@@ -299,7 +299,7 @@ button {
   font-size: 18px;
   font-weight: 400;
   line-height: 165%;
-  width: 529px;
+  /* width: 529px; */
   margin: 15px 0;
 }
 .about-us-group-text {
@@ -473,7 +473,104 @@ button {
   }
 }
 .our-services2 {
+  margin: 0 0 50px 0;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.customers {
+  background: #d1edf482;
+  height: 750px;
+}
+.customers-block {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.customers__footer {
+  background: #1e2c30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer__img {
+  display: flex;
+  align-items: center;
+}
+
+.customers__footer-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: -0.2px;
+}
+.customers__footer-title span {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0.42px;
+}
+.customers__footer img {
+  margin: 10px 20px;
+}
+.customers-text {
+  color: #141414;
+  font-family: "Manrope", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 180%;
+  padding: 20px;
+}
+.customer-group {
+  max-width: 582px;
+  background: white;
+}
+.customer-group2 {
+  max-width: 582px;
+  background: white;
+}
+.customers-header {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.customers-header-text {
+  color: #5c8692;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 154.5%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.customers-header-title {
+  color: #141414;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.45px;
+  margin: 0 0 30px;
+}
+@media screen and (max-width: 825px) {
+  .customers-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .customers {
+    background: #d1edf482;
+    height: 100%;
+  }
+  .customers-header {
+    display: flex;
+    text-align: center;
+  }
 }
