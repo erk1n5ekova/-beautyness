@@ -308,7 +308,7 @@ button {
 }
 
 .about-us-group {
-  width: 161px;
+  /* width: 161px; */
   border: 1px solid #1e2c30;
   background: #fff;
 }
@@ -367,7 +367,6 @@ button {
     align-items: center;
   }
   .about-us-group {
-    /* width: 121px; */
     border: 1px solid #1e2c30;
     background: #fff;
   }
@@ -637,5 +636,159 @@ button {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+}
+.discount__block-info {
+  display: flex;
+}
+.discount__group-title2 {
+  color: #5c8692;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 154.5%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  padding: 30px 0;
+}
+.discount__group-title {
+  color: #141414;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -0.45px;
+}
+.discount__group-text {
+  color: #555;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  /* line-height: 175%; */
+  margin: 20px 0;
+}
+.discount__block-title {
+  color: #141414;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  /* line-height: 150%; */
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  margin: 5px 10px;
+}
+.discount__block-title span {
+  color: #141414;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  /* line-height: 150%; */
+}
+.discount__block2 {
+  border: 1px solid #95bfcb;
+  background: #fff;
+  padding: 18px 20px;
+}
+.discount__block {
+  display: flex;
+}
+.discount {
+  background: #d1edf482;
+  margin: 40px 0;
+}
+.discount-footer {
+  background: #1e2c30;
+  padding: 12px 24px;
+}
+.discount-footer-title {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  /* line-height: 175%; */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.discount-footer-title {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.36px;
+}
+.APPOINTMENT {
+  margin: 70px 0;
+  padding: 25px 35px;
+  background: #fff;
+  box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
+}
+.discount-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.appointment-group {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  border: 1px solid #5c8692;
+  background: #fff;
+  margin: 20px 0;
+}
+.appointment-group img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+.appointment-btn {
+  padding: 23px 109px;
+  background: #5c8692;
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 125%;
+  letter-spacing: 1.68px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.appointment-group-text {
+  color: #555;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.appointment-group2 {
+  display: flex;
+  align-items: flex-start;
+  height: 130px;
+  border: 1px solid #5c8692;
+  background: #fff;
+}
+.appointment-group2 img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+@media screen and (max-width: 1010px) {
+  .discount-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .discount__group {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .discount__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .appointment-btn {
+    padding: 23px 49px;
   }
 }
